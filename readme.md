@@ -6,8 +6,11 @@
 
 
 1. 前言1. 前言
+
 安卓属于小团队开发，架构的重要性在很多公司其实不是那么的明显，加上现在的开源框架层出不穷，更好的帮助我们上手Android项目的开发。我前两年也在公司主导过项目开发，搭建过不少项目，以前主要的倾向是MVC，导致了activity/fragment过大，而且很多公共功能杂乱在项目中，后期维护起来不方便，最近刚好有时间，重新搭建了一个新的框架。（ps：有建议或者更好想法的可以留言。）
+
 2. 用到的知识点：
+
 UI—-面向对象 
 数据交互—-MVP模式 
 数据库——GreenDao 
@@ -15,8 +18,11 @@ UI—-面向对象
 json解析—–gson 
 http请求—-OKHttp 
 事件总线—-eventbus
+
 安卓属于小团队开发，架构的重要性在很多公司其实不是那么的明显，加上现在的开源框架层出不穷，更好的帮助我们上手Android项目的开发。我前两年也在公司主导过项目开发，搭建过不少项目，以前主要的倾向是MVC，导致了activity/fragment过大，而且很多公共功能杂乱在项目中，后期维护起来不方便，最近刚好有时间，重新搭建了一个新的框架。（ps：有建议或者更好想法的可以留言。）
+
 2. 用到的知识点：
+
 UI—-面向对象 
 数据交互—-MVP模式 
 数据库——GreenDao 
@@ -26,6 +32,7 @@ http请求—-OKHttp
 事件总线—-eventbus
 
 3.以上知识点不熟悉的，可以先熟悉下基本知识，如果已经了解过，可以直接跳过下面的链接，直接看下文的使用。 
+
 MVP模式 讲解地址：http://blog.csdn.net/dfskhgalshgkajghljgh/article/details/51317956 
 GreenDao 讲解地址：http://blog.csdn.net/dfskhgalshgkajghljgh/article/details/51304390 
 picasso 讲解地址：http://blog.csdn.net/dfskhgalshgkajghljgh/article/details/51684693 
