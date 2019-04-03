@@ -9,5 +9,9 @@ import android.test.ApplicationTestCase;
 public class ApplicationTest extends ApplicationTestCase<Application> {
     public ApplicationTest() {
         super(Application.class);
+//        DaoSession daoSession= ZDApplication.getInstances().getDaoSession();
+//        UserDao userDao=daoSession.getUserDao();
+//        User user2 = new User("wnm","123");
+//        userDao.insert(user2);
     }
 }

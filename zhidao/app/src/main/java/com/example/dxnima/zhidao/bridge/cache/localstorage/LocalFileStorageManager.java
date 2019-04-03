@@ -13,7 +13,7 @@ import java.io.File;
  * Created by DXnima on 2019/4/1.
  */
 public class LocalFileStorageManager implements BridgeLifeCycleListener {
-    private static String FILE_ROOT_NAME = "Electronicbrand";
+    private static String FILE_ROOT_NAME = "Zhidao";
 
     /**
      * 列表页面图片缓存目录

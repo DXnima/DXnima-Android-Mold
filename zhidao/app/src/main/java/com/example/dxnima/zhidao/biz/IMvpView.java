@@ -8,7 +8,7 @@ package com.example.dxnima.zhidao.biz;
 public interface IMvpView {
     void onError(String errorMsg, String code);
 
-    void onSuccess();
+    void onSuccess(String string,String code);
 
     void showLoading();
 

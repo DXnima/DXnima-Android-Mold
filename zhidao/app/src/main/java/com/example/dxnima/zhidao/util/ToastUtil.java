@@ -3,7 +3,7 @@ package com.example.dxnima.zhidao.util;
 import android.content.Context;
 import android.widget.Toast;
 
-import com.example.dxnima.zhidao.EBApplication;
+import com.example.dxnima.zhidao.ZDApplication;
 import com.example.dxnima.zhidao.constant.Constants;
 
 /**
@@ -20,7 +20,7 @@ public class ToastUtil {private static Toast toast;
      * @see [类、类#方法、类#成员]
      */
     public static void makeText(Context context, String msg) {
-        if (EBApplication.currentActivityName.equals(context.getClass().getName())) {
+        if (ZDApplication.currentActivityName.equals(context.getClass().getName())) {
             if (toast == null) {
                 toast = Toast.makeText(context, msg, Toast.LENGTH_SHORT);
             } else {
@@ -38,7 +38,7 @@ public class ToastUtil {private static Toast toast;
      * @see [类、类#方法、类#成员]
      */
     public static void makeTextLong(Context context, String msg) {
-        if (EBApplication.currentActivityName.equals(context.getClass().getName())) {
+        if (ZDApplication.currentActivityName.equals(context.getClass().getName())) {
             if (toast == null) {
                 toast = Toast.makeText(context, msg, Toast.LENGTH_LONG);
             } else {

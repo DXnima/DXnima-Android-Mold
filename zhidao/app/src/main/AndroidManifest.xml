@@ -8,20 +8,25 @@
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 
     <application
-        android:name=".EBApplication"
+        android:name=".ZDApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
-        android:label="zhidao"
+        android:label="吱道"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ui.personcenter.LoginActivity">
+        <activity android:name=".ui.personcenter.WelcomeActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
-
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
+        <activity android:name=".ui.personcenter.LoginActivity">
+        </activity>
         <activity android:name=".ui.personcenter.HomeActivity">
+        </activity>
+        <activity android:name=".ui.personcenter.RegisterActivity">
+        </activity>
+        <activity android:name=".ui.personcenter.Updatepsd">
         </activity>
     </application>
 
